@@ -32,7 +32,7 @@ spec:
       volumes:
         - name: vpro-db-data
           persistentVolumeClaim:
-            claimName: db-pv-claim
+            claimName: db-pv-claim 
       initContainers:
         - name: busybox
           image: busybox:latest
